@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="main" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.knvb.quizapp.QuestionsController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="sub" text="Quản lý câu hỏi" />
+      <TextArea prefHeight="105.0" prefWidth="380.0" promptText="Hãy nhập gì đó...3" />
+      <HBox prefHeight="33.0" prefWidth="380.0" styleClass="main">
+         <children>
+            <ComboBox prefWidth="150.0" promptText="Danh mục" />
+            <ComboBox layoutX="10.0" layoutY="10.0" prefWidth="150.0" promptText="Mức độ" />
+         </children>
+      </HBox>
+      <VBox prefHeight="96.0" prefWidth="380.0">
+         <children>
+            <HBox prefHeight="30.0" prefWidth="380.0" styleClass="main">
+               <children>
+                  <RadioButton mnemonicParsing="false" />
+                  <TextField styleClass="text" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="30.0" prefWidth="380.0" styleClass="main">
+               <children>
+                  <RadioButton mnemonicParsing="false" />
+                  <TextField styleClass="text" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button mnemonicParsing="false" styleClass="but" text="Button" />
+   </children>
+</VBox>

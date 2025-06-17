@@ -1,0 +1,6 @@
+com\knvb\quizapp\PrimaryController.class
+module-info.class
+com\knvb\quizapp\SecondaryController.class
+com\knvb\quizapp\App.class
+com\knvb\utils\MyAlert.class
+com\knvb\quizapp\QuestionsController.class
