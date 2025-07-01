@@ -11,7 +11,6 @@ import lombok.Setter;
  *
  * @author admin
  */
-
 public class Category {
     private int id;
     private String name;

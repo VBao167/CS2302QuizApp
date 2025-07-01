@@ -14,11 +14,11 @@ import javafx.scene.Scene;
 public class ThemeManager {
     private static ThemeFactory themeFactory = new DarkThemeFactory();
     
-    public static void setThemeFactory(ThemeFactory f){
+    public static void setThemeFactory(ThemeFactory f) {
         themeFactory = f;
     }
     
-    public static void applyTheme(Scene scene){
+    public static void applyTheme(Scene scene) {
         scene.getRoot().getStylesheets().clear();
         scene.getRoot().getStylesheets().add(themeFactory.getStyleSheet());
     }

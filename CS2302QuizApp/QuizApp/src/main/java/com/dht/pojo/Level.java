@@ -67,6 +67,4 @@ public class Level {
     public void setNote(String note) {
         this.note = note;
     }
-    
-    
 }
